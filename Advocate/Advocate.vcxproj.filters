@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminDashboard.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditUser.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvocateDashboard.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddClient.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditClient.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasesManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CasesForm.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCase.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCase.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddClientAdminForm.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCaseAdmin.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminDashboard.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUser.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditUser.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvocateDashboard.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddClient.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditClient.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasesManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CasesForm.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCase.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCase.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddClientAdminForm.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCaseAdmin.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="users.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="clients.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="clientLastId.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cases.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="casesLastId.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

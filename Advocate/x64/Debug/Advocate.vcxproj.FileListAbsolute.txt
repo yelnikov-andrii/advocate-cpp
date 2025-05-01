@@ -1,0 +1,14 @@
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.vcxproj.AssemblyReference.cache
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AddCase.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AddCaseAdmin.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AddClient.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AddClientAdminForm.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.CasesForm.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.EditCase.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.EditClient.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.EditUser.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.MainForm.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AdminDashboard.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AddUser.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.AdvocateDashboard.resources
+C:\Users\white\source\repos\Advocate\Advocate\x64\Debug\Advocate.vcxproj.GenerateResource.cache

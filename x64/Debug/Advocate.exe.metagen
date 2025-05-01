@@ -1,0 +1,162 @@
+  Advocate.AddCase.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AddCaseAdmin.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AddClient.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AddClientAdminForm.resources - Embedded, ContainedInManifestFile, 
+  Advocate.CasesForm.resources - Embedded, ContainedInManifestFile, 
+  Advocate.EditCase.resources - Embedded, ContainedInManifestFile, 
+  Advocate.EditClient.resources - Embedded, ContainedInManifestFile, 
+  Advocate.EditUser.resources - Embedded, ContainedInManifestFile, 
+  Advocate.MainForm.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AdminDashboard.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AddUser.resources - Embedded, ContainedInManifestFile, 
+  Advocate.AdvocateDashboard.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Advocate, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Advocate.AddCase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String, RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+    System.String advocateFullnameStr : Public
+    System.String clientId : Public
+Class Advocate.AddCase+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.AddCaseAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+Class Advocate.AddCaseAdmin+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.AddClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+    System.String advocateFullnameStr : Public
+Class Advocate.AddClient+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.AddClientAdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+    System.String advocateFullnameStr : Public
+Class Advocate.AddClientAdminForm+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.EditCase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+    System.String caseId : Public
+  Methods:
+    SetData(String): PrivateScope, Public, HideBySig
+Class Advocate.EditCase+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.CasesForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String clientIdStr : Public
+    System.String advocateFullname : Public
+  Methods:
+    RefreshTable(): PrivateScope, Public, HideBySig
+Class Advocate.EditClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+    System.String clientId : Public
+    System.String fullnameOfAdvocate : Public
+  Methods:
+    SetData(String, String, String, String): PrivateScope, Public, HideBySig
+Class Advocate.EditClient+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.EditUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String oldFullname : Public
+    RefreshTableDelegate refreshDelegate : Public
+  Methods:
+    SetUserData(String, String, String): PrivateScope, Public, HideBySig
+Class Advocate.EditUser+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.AddUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(RefreshTableDelegate): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    RefreshTableDelegate refreshDelegate : Public
+Class Advocate.AddUser+RefreshTableDelegate: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Advocate.AdminDashboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RefreshUserTable(): PrivateScope, Public, HideBySig
+    RefreshClientsTable(String): PrivateScope, Public, HideBySig
+    RefreshCasesTable(): PrivateScope, Public, HideBySig
+Class Advocate.AdvocateDashboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String advocateFullname : Public
+  Methods:
+    RefreshClientsTable(String): PrivateScope, Public, HideBySig
+Class Advocate.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
