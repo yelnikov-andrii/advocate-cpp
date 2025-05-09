@@ -135,8 +135,8 @@ bool CasesManager::addCase(String^ advocateFullname, String^ clientId, String^ t
     time_t now = time(0);
     tm* ltm = localtime(&now);
 
-    char createdAt[20];
-    strftime(createdAt, sizeof(createdAt), "%Y-%m-%d %H:%M:%S", ltm);
+    char createdAt[11];
+    strftime(createdAt, sizeof(createdAt), "%Y-%m-%d", ltm);
 
     outFile << caseId << " | " << nativeAdvocateFullname << " | " << nativeClientId << " | "
         << nativeTitle << " | " << nativeDescription << " | " << nativeStatus << " | " << createdAt << std::endl;

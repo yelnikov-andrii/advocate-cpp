@@ -88,19 +88,21 @@ namespace Advocate {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textBox1->Location = System::Drawing::Point(190, 161);
+			this->textBox1->Location = System::Drawing::Point(283, 235);
+			this->textBox1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(182, 25);
+			this->textBox1->Size = System::Drawing::Size(271, 25);
 			this->textBox1->TabIndex = 0;
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(187, 130);
+			this->label1->Location = System::Drawing::Point(282, 212);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(134, 18);
 			this->label1->TabIndex = 1;
@@ -108,19 +110,21 @@ namespace Advocate {
 			// 
 			// textBox3
 			// 
-			this->textBox3->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->textBox3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textBox3->Location = System::Drawing::Point(190, 236);
+			this->textBox3->Location = System::Drawing::Point(283, 319);
+			this->textBox3->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(182, 25);
+			this->textBox3->Size = System::Drawing::Size(271, 25);
 			this->textBox3->TabIndex = 4;
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(187, 215);
+			this->label3->Location = System::Drawing::Point(282, 296);
+			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(79, 18);
 			this->label3->TabIndex = 5;
@@ -128,19 +132,21 @@ namespace Advocate {
 			// 
 			// textBox4
 			// 
-			this->textBox4->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->textBox4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textBox4->Location = System::Drawing::Point(190, 302);
+			this->textBox4->Location = System::Drawing::Point(285, 409);
+			this->textBox4->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(182, 25);
+			this->textBox4->Size = System::Drawing::Size(271, 25);
 			this->textBox4->TabIndex = 6;
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label4->Location = System::Drawing::Point(187, 281);
+			this->label4->Location = System::Drawing::Point(282, 386);
+			this->label4->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(50, 18);
 			this->label4->TabIndex = 7;
@@ -148,11 +154,13 @@ namespace Advocate {
 			// 
 			// button1
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(190, 346);
+			this->button1->Location = System::Drawing::Point(285, 475);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(182, 36);
+			this->button1->Size = System::Drawing::Size(273, 64);
 			this->button1->TabIndex = 10;
 			this->button1->Text = L"Створити користувача";
 			this->button1->UseVisualStyleBackColor = true;
@@ -161,17 +169,19 @@ namespace Advocate {
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Location = System::Drawing::Point(190, 90);
+			this->comboBox1->Location = System::Drawing::Point(285, 159);
+			this->comboBox1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(182, 21);
+			this->comboBox1->Size = System::Drawing::Size(271, 31);
 			this->comboBox1->TabIndex = 11;
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label2->Location = System::Drawing::Point(190, 69);
+			this->label2->Location = System::Drawing::Point(282, 122);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(151, 18);
 			this->label2->TabIndex = 12;
@@ -179,9 +189,9 @@ namespace Advocate {
 			// 
 			// AddClientAdminForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 23);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(654, 452);
+			this->ClientSize = System::Drawing::Size(981, 800);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->button1);
@@ -191,8 +201,12 @@ namespace Advocate {
 			this->Controls->Add(this->textBox3);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
+			this->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"AddClientAdminForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Додати користувача";
 			this->ResumeLayout(false);
 			this->PerformLayout();

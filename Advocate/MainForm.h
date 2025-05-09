@@ -72,54 +72,58 @@ namespace Advocate {
 			// 
 			// fullnameBox
 			// 
-			this->fullnameBox->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->fullnameBox->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->fullnameBox->Location = System::Drawing::Point(204, 169);
+			this->fullnameBox->Location = System::Drawing::Point(230, 229);
+			this->fullnameBox->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->fullnameBox->Name = L"fullnameBox";
-			this->fullnameBox->Size = System::Drawing::Size(178, 21);
+			this->fullnameBox->Size = System::Drawing::Size(200, 25);
 			this->fullnameBox->TabIndex = 0;
 			this->fullnameBox->Text = L"Соул Гудман";
 			// 
 			// passwordBox
 			// 
-			this->passwordBox->Font = (gcnew System::Drawing::Font(L"Arial", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->passwordBox->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->passwordBox->Location = System::Drawing::Point(204, 224);
+			this->passwordBox->Location = System::Drawing::Point(230, 303);
+			this->passwordBox->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->passwordBox->Name = L"passwordBox";
 			this->passwordBox->PasswordChar = '*';
-			this->passwordBox->Size = System::Drawing::Size(178, 21);
+			this->passwordBox->Size = System::Drawing::Size(200, 25);
 			this->passwordBox->TabIndex = 1;
 			this->passwordBox->Text = L"67890";
 			// 
 			// labelFullname
 			// 
 			this->labelFullname->AutoSize = true;
-			this->labelFullname->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->labelFullname->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->labelFullname->Location = System::Drawing::Point(201, 151);
+			this->labelFullname->Location = System::Drawing::Point(226, 204);
 			this->labelFullname->Name = L"labelFullname";
-			this->labelFullname->Size = System::Drawing::Size(118, 15);
+			this->labelFullname->Size = System::Drawing::Size(134, 18);
 			this->labelFullname->TabIndex = 2;
 			this->labelFullname->Text = L"Ім\'я та прізвище";
 			// 
 			// labelPassword
 			// 
 			this->labelPassword->AutoSize = true;
-			this->labelPassword->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->labelPassword->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->labelPassword->Location = System::Drawing::Point(201, 206);
+			this->labelPassword->Location = System::Drawing::Point(226, 279);
 			this->labelPassword->Name = L"labelPassword";
-			this->labelPassword->Size = System::Drawing::Size(57, 15);
+			this->labelPassword->Size = System::Drawing::Size(67, 18);
 			this->labelPassword->TabIndex = 3;
 			this->labelPassword->Text = L"Пароль";
 			// 
 			// loginBtn
 			// 
-			this->loginBtn->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->loginBtn->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->loginBtn->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->loginBtn->Location = System::Drawing::Point(204, 266);
+			this->loginBtn->Location = System::Drawing::Point(230, 360);
+			this->loginBtn->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->loginBtn->Name = L"loginBtn";
-			this->loginBtn->Size = System::Drawing::Size(178, 39);
+			this->loginBtn->Size = System::Drawing::Size(200, 53);
 			this->loginBtn->TabIndex = 4;
 			this->loginBtn->Text = L"Увійти";
 			this->loginBtn->UseVisualStyleBackColor = true;
@@ -127,17 +131,20 @@ namespace Advocate {
 			// 
 			// MainForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 23);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(663, 504);
+			this->ClientSize = System::Drawing::Size(746, 682);
 			this->Controls->Add(this->loginBtn);
 			this->Controls->Add(this->labelPassword);
 			this->Controls->Add(this->labelFullname);
 			this->Controls->Add(this->passwordBox);
 			this->Controls->Add(this->fullnameBox);
-			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F));
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
+			this->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->Name = L"MainForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Авторизація";
 			this->ResumeLayout(false);
 			this->PerformLayout();

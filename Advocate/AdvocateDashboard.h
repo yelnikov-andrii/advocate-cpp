@@ -130,11 +130,11 @@ namespace Advocate {
 			// tabControl1
 			// 
 			this->tabControl1->Controls->Add(this->tabPage1);
-			this->tabControl1->Location = System::Drawing::Point(79, 85);
-			this->tabControl1->Margin = System::Windows::Forms::Padding(2);
+			this->tabControl1->Location = System::Drawing::Point(118, 150);
+			this->tabControl1->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->tabControl1->Name = L"tabControl1";
 			this->tabControl1->SelectedIndex = 0;
-			this->tabControl1->Size = System::Drawing::Size(658, 291);
+			this->tabControl1->Size = System::Drawing::Size(1051, 515);
 			this->tabControl1->TabIndex = 0;
 			// 
 			// tabPage1
@@ -144,22 +144,24 @@ namespace Advocate {
 			this->tabPage1->Controls->Add(this->button2);
 			this->tabPage1->Controls->Add(this->button1);
 			this->tabPage1->Controls->Add(this->dataGridView1);
-			this->tabPage1->Location = System::Drawing::Point(4, 22);
-			this->tabPage1->Margin = System::Windows::Forms::Padding(2);
+			this->tabPage1->Location = System::Drawing::Point(4, 32);
+			this->tabPage1->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->tabPage1->Name = L"tabPage1";
-			this->tabPage1->Padding = System::Windows::Forms::Padding(2);
-			this->tabPage1->Size = System::Drawing::Size(650, 265);
+			this->tabPage1->Padding = System::Windows::Forms::Padding(3, 4, 3, 4);
+			this->tabPage1->Size = System::Drawing::Size(1043, 479);
 			this->tabPage1->TabIndex = 0;
 			this->tabPage1->Text = L"Клієнти";
 			this->tabPage1->UseVisualStyleBackColor = true;
 			// 
 			// button4
 			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button4->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button4->Location = System::Drawing::Point(496, 216);
+			this->button4->Location = System::Drawing::Point(744, 382);
+			this->button4->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(149, 29);
+			this->button4->Size = System::Drawing::Size(224, 51);
 			this->button4->TabIndex = 4;
 			this->button4->Text = L"Переглянути справи";
 			this->button4->UseVisualStyleBackColor = true;
@@ -167,11 +169,13 @@ namespace Advocate {
 			// 
 			// button3
 			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button3->Location = System::Drawing::Point(333, 216);
+			this->button3->Location = System::Drawing::Point(500, 382);
+			this->button3->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(145, 29);
+			this->button3->Size = System::Drawing::Size(218, 51);
 			this->button3->TabIndex = 3;
 			this->button3->Text = L"Видалити клієнта";
 			this->button3->UseVisualStyleBackColor = true;
@@ -179,11 +183,13 @@ namespace Advocate {
 			// 
 			// button2
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button2->Location = System::Drawing::Point(157, 216);
+			this->button2->Location = System::Drawing::Point(236, 382);
+			this->button2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(139, 29);
+			this->button2->Size = System::Drawing::Size(208, 51);
 			this->button2->TabIndex = 2;
 			this->button2->Text = L"Редагувати клієнта";
 			this->button2->UseVisualStyleBackColor = true;
@@ -191,11 +197,13 @@ namespace Advocate {
 			// 
 			// button1
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(16, 216);
+			this->button1->Location = System::Drawing::Point(24, 382);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(113, 29);
+			this->button1->Size = System::Drawing::Size(170, 51);
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"Додати клієнта";
 			this->button1->UseVisualStyleBackColor = true;
@@ -208,12 +216,12 @@ namespace Advocate {
 				this->dataGridViewTextBoxColumn1,
 					this->dataGridViewTextBoxColumn2, this->dataGridViewTextBoxColumn3, this->dataGridViewTextBoxColumn4, this->dataGridViewTextBoxColumn5
 			});
-			this->dataGridView1->Location = System::Drawing::Point(16, 15);
-			this->dataGridView1->Margin = System::Windows::Forms::Padding(2);
+			this->dataGridView1->Location = System::Drawing::Point(24, 27);
+			this->dataGridView1->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowHeadersWidth = 51;
 			this->dataGridView1->RowTemplate->Height = 24;
-			this->dataGridView1->Size = System::Drawing::Size(614, 183);
+			this->dataGridView1->Size = System::Drawing::Size(944, 324);
 			this->dataGridView1->TabIndex = 0;
 			// 
 			// dataGridViewTextBoxColumn1
@@ -253,18 +261,20 @@ namespace Advocate {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(83, 47);
+			this->textBox1->Location = System::Drawing::Point(124, 83);
+			this->textBox1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(239, 20);
+			this->textBox1->Size = System::Drawing::Size(356, 30);
 			this->textBox1->TabIndex = 1;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &AdvocateDashboard::textBox1_TextChanged);
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(80, 26);
+			this->label1->Location = System::Drawing::Point(120, 46);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(59, 18);
 			this->label1->TabIndex = 2;
@@ -272,15 +282,18 @@ namespace Advocate {
 			// 
 			// AdvocateDashboard
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 23);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(901, 423);
+			this->ClientSize = System::Drawing::Size(1352, 748);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->tabControl1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
-			this->Margin = System::Windows::Forms::Padding(2);
+			this->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->Margin = System::Windows::Forms::Padding(3, 4, 3, 4);
 			this->Name = L"AdvocateDashboard";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
@@ -372,12 +385,22 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
 	int selectedIndex = dataGridView1->CurrentCell->RowIndex;
 	DataGridViewRow^ selectedRow;
+	selectedRow = dataGridView1->Rows[selectedIndex];
 
-	if (selectedIndex >= 0 && selectedIndex < dataGridView1->Rows->Count) {
-		selectedRow = dataGridView1->Rows[selectedIndex];
-		String^ clientId = selectedRow->Cells[0]->Value->ToString();
-		Advocate::CasesForm^ casesForm = gcnew Advocate::CasesForm(clientId);
-		casesForm->ShowDialog();
+	if (dataGridView1->CurrentCell != nullptr) {
+		int selectedIndex = dataGridView1->CurrentCell->RowIndex;
+		DataGridViewRow^ selectedRow = dataGridView1->Rows[selectedIndex];
+
+		if (selectedRow->Cells[0]->Value != nullptr &&
+			selectedRow->Cells[0]->Value->ToString()->Trim() != "") {
+
+			String^ clientId = selectedRow->Cells[0]->Value->ToString();
+			Advocate::CasesForm^ casesForm = gcnew Advocate::CasesForm(clientId);
+			casesForm->ShowDialog();
+		}
+		else {
+			MessageBox::Show("Виберіть клієнта");
+		}
 	}
 }
 

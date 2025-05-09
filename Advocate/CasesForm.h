@@ -53,6 +53,28 @@ namespace Advocate {
 			catch (Exception^ ex) {
 				MessageBox::Show("Помилка при завантаженні справ: " + ex->Message);
 			}
+
+			for (int i = 0; i < dataGridView1->RowCount; i++) {
+				if (dataGridView1->Rows[i]->IsNewRow)
+					continue;
+
+				String^ status = dataGridView1->Rows[i]->Cells[5]->Value->ToString()->ToLower();
+
+				if (status == "нова")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightBlue;
+				else if (status == "в роботі")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::Khaki;
+				else if (status == "очікує клієнта")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightSalmon;
+				else if (status == "призупинена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightGray;
+				else if (status == "завершена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightGreen;
+				else if (status == "відхилена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::Tomato;
+				else if (status == "архівована")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::DarkGray;
+			}
 		}
 
 	protected:
@@ -106,6 +128,28 @@ namespace Advocate {
 			catch (Exception^ ex) {
 				MessageBox::Show("Помилка при завантаженні справ: " + ex->Message);
 			}
+
+			for (int i = 0; i < dataGridView1->RowCount; i++) {
+				if (dataGridView1->Rows[i]->IsNewRow)
+					continue;
+
+				String^ status = dataGridView1->Rows[i]->Cells[5]->Value->ToString()->ToLower();
+
+				if (status == "нова")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightBlue;
+				else if (status == "в роботі")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::Khaki;
+				else if (status == "очікує клієнта")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightSalmon;
+				else if (status == "призупинена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightGray;
+				else if (status == "завершена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::LightGreen;
+				else if (status == "відхилена")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::Tomato;
+				else if (status == "архівована")
+					dataGridView1->Rows[i]->DefaultCellStyle->BackColor = System::Drawing::Color::DarkGray;
+			}
 		};
 
 	private:
@@ -142,10 +186,11 @@ namespace Advocate {
 				this->Column1,
 					this->Column2, this->Column3, this->Column4, this->Column5, this->Column6, this->Column7
 			});
-			this->dataGridView1->Location = System::Drawing::Point(22, 27);
+			this->dataGridView1->Location = System::Drawing::Point(33, 48);
+			this->dataGridView1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowHeadersWidth = 51;
-			this->dataGridView1->Size = System::Drawing::Size(932, 200);
+			this->dataGridView1->Size = System::Drawing::Size(1398, 354);
 			this->dataGridView1->TabIndex = 0;
 			// 
 			// Column1
@@ -199,11 +244,13 @@ namespace Advocate {
 			// 
 			// button1
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(22, 252);
+			this->button1->Location = System::Drawing::Point(33, 446);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(113, 29);
+			this->button1->Size = System::Drawing::Size(170, 51);
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"Додати справу";
 			this->button1->UseVisualStyleBackColor = true;
@@ -211,11 +258,13 @@ namespace Advocate {
 			// 
 			// button2
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button2->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button2->Location = System::Drawing::Point(151, 252);
+			this->button2->Location = System::Drawing::Point(226, 446);
+			this->button2->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(134, 29);
+			this->button2->Size = System::Drawing::Size(201, 51);
 			this->button2->TabIndex = 2;
 			this->button2->Text = L"Редагувати справу";
 			this->button2->UseVisualStyleBackColor = true;
@@ -223,11 +272,13 @@ namespace Advocate {
 			// 
 			// button3
 			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button3->Location = System::Drawing::Point(302, 252);
+			this->button3->Location = System::Drawing::Point(453, 446);
+			this->button3->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(120, 29);
+			this->button3->Size = System::Drawing::Size(180, 51);
 			this->button3->TabIndex = 3;
 			this->button3->Text = L"Видалити справу";
 			this->button3->UseVisualStyleBackColor = true;
@@ -235,15 +286,19 @@ namespace Advocate {
 			// 
 			// CasesForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(9, 23);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(976, 337);
+			this->ClientSize = System::Drawing::Size(1464, 596);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->dataGridView1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
+			this->Font = (gcnew System::Drawing::Font(L"Segoe UI", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"CasesForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Справи";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->ResumeLayout(false);
